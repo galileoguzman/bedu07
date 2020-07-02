@@ -9,7 +9,3 @@ class Song():
 
     def get_title_and_singer(self):
         return f'{self.title} - {self.singer}'
-
-
-cancion = Song('Alexander Hamilton', 'Hamilton', 'Lin Manuel Miranda')
-print(cancion.get_title_and_singer())
